@@ -39,7 +39,7 @@ class CustomLinkedList {
   }
 
   prepend(value: any) {
-    const newNode:  { value: any; next: any } | null  = {
+    const newNode: { value: any; next: any } | null = {
       value,
       next: null,
     };
@@ -67,7 +67,7 @@ class CustomLinkedList {
     if (index >= this.length) {
       return this.append(value);
     }
-    const newNode :  { value: any; next: any } | null = {
+    const newNode: { value: any; next: any } | null = {
       value: value,
       next: null,
     };
@@ -165,5 +165,5 @@ customLinkedList.append(30);
 // console.log(customLinkedList);
 customLinkedList.printList();
 customLinkedList.insert(2, 50);
-customLinkedList.remove(1)
-customLinkedList.reverse()
+customLinkedList.remove(1);
+customLinkedList.reverse();

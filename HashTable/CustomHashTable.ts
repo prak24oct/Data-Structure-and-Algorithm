@@ -37,13 +37,13 @@ class CustomHashTable {
   }
 
   keys(): any[] {
-    let keys: any[] = []
-    for(let i=0; i< this.data.length; i++){
-        if(this.data[i] !== undefined) {
-            keys.push(this.data[i][0][0])
-        }
+    let keys: any[] = [];
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i] !== undefined) {
+        keys.push(this.data[i][0][0]);
+      }
     }
-    return keys
+    return keys;
   }
 }
 
@@ -53,5 +53,4 @@ myCustomHashTable.set("apples", 500);
 console.log(myCustomHashTable.get("grapes"));
 console.log(myCustomHashTable.get("grapessssssssss"));
 console.log(myCustomHashTable);
-console.log(myCustomHashTable.keys())
-
+console.log(myCustomHashTable.keys());
