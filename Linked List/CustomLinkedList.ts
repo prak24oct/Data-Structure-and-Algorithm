@@ -70,7 +70,6 @@ class CustomLinkedList {
   }
 
   traverseToIndex(index: number) {
-
     let counter = 0;
     let currentNode = this.head; 
     while (counter !== index) {
